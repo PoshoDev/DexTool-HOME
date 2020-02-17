@@ -137,15 +137,11 @@ def select_all():
             i += 1
         j += 1
 
-    pyautogui.click(win_x + 64, win_y + 834 - win_off)
-    time.sleep(0.5)
-    pyautogui.click(win_x + 292, win_y + 555 - win_off)
-    time.sleep(1.5)
-    pyautogui.click(win_x + 292, win_y + 574 - win_off)
-    time.sleep(8)
-    pyautogui.click(win_x + 288, win_y + 834 - win_off)
-    time.sleep(1)
-    pyautogui.click(win_x + 288, win_y + 172 - win_off)
+    click(64, 834, 0.5)
+    click(292, 555, 1.5)
+    click(292, 574, 8)
+    click(288, 834, 1)
+    click(288, 172, 0)
 
     return
 
