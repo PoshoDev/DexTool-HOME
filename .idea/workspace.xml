@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de82838-2e6c-4b96-80f4-6860b66c29cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HOME Macros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HOME Macros.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DexTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/DexTool.py" afterDir="false" />
     </list>

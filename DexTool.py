@@ -28,12 +28,9 @@ def check(x, y, w, h, t, c):
     py = win_y + y
 
     while True:
-        print("Trying: " + t)
+        print("Try: " + t+"\t", end =" ")
         shot = pyautogui.screenshot(region=(px, py, w, h))
-        shot.save(r'C:\Users\green\AppData\Local\HOME Macros\img.png')
-
-        im = Image.open(r"C:\Users\green\AppData\Local\HOME Macros\img.png")
-        txt = tess.image_to_string(im)
+        txt = tess.image_to_string(shot)
         print("Read: " + txt)
 
         if not c:
